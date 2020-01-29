@@ -1,0 +1,31 @@
+.logo-nav{
+    width: 100px;
+    height: auto;
+}
+.mi__navigation {
+    background-color: $eerieblack !important;
+}
+
+li.active a{
+
+    color: $spanish-pink !important;
+}
+
+.color-nav{
+
+    
+    color: white !important;
+}
+
+.page-item,.disabled{
+
+    color: #E6E7E7;
+
+}
+.paginacion{
+    background-color: #e6e7e7;
+    width: 100%;
+    height: 100px;
+    @include mi__centrar;
+   
+}

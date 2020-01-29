@@ -1,0 +1,52 @@
+.naomi-foto{
+    border-radius: 200px;
+    -moz-border-radius: 200px;
+    -webkit-border-radius: 200px;
+    border: 0px solid #000000;
+}
+
+.naomi-section{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pagina-naomi {
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.rrss,.depelos,.instagram-naomi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: $spanish-pink;
+}
+
+
+.naomi-name{
+
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-style: italic;
+
+}
+.descripcion-naomi{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 100px;
+
+}
+@media only screen and (max-width: 600px) {
+    .naomi-foto{
+        border-radius: 200px;
+        -moz-border-radius: 200px;
+        -webkit-border-radius: 200px;
+        border: 0px solid #000000;
+        @include mi__centrar
+    }
+
+   
+}

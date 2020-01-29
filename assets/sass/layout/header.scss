@@ -1,0 +1,25 @@
+header{
+
+    background-image: url(/assets/img/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    color: white;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 100px;
+}
+
+i {
+    margin-top: 220px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+}

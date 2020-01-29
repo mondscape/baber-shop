@@ -1,0 +1,32 @@
+.btn-secondary{
+    border-radius: 20px;
+    padding: 10px 10px;
+    margin: 15px;
+    display: inline-block;
+    opacity: 100%;
+    background-color: $nickel;
+
+    &:hover {
+        background-color: #d6d6d6;
+        border: 1px solid #d6d6d6;
+        color: white;
+    }
+
+    &:focus {
+        background-color: $nickel !important;
+        border: 1px solid #d6d6d6 !important;
+        color: white !important;
+    }
+
+}
+.btn:hover{
+    background-color: #d6d6d6;
+    border: 1px solid #d6d6d6;
+    color: white;
+}
+.btn__pg{
+    border-radius: 50px;
+    background-color: white ;
+    color: $eerieblack;
+    border-color: #d6d6d6;
+}

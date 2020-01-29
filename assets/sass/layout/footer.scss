@@ -1,0 +1,13 @@
+footer{
+    background-color: $eerieblack;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo-footer{
+    align-items: center;
+    @include mi__centrar;
+
+}
